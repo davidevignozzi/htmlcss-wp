@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-image: url(../img/background-page.png);
+  height: 2000px;
+}
+
+header{
+  padding-top: 30px;
+}
+
+.block-header{
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+}
+
+.img-background-header{
+  position: absolute;
+  top: 5px;
+  left:5px;
+  width: 790px;
+  height: 290px;
+  background-image: url(../img/background-header.png);
+  background-size: cover;
+}
+
+.img-logo{
+  margin-left: 200px;
+  width: 400px;
+  height: 200px;
+}
+
+.title{
+  text-align: center;
+  color: white;
+}
+
+/* header */
